@@ -1,15 +1,5 @@
 @value colors: './colors.css';
 
-/* Font families */
-
-.adobeCaslonPro {
-  font-family: 'adobe-caslon-pro';
-}
-
-.museoSans {
-  font-family: 'museo-sans';
-}
-
 /* Properties */
 a {
   color: #cc5242 !important;
