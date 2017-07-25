@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 class App extends Component {
 
   showPopularMovies() {
-    window.location.href = "/popular-movies"
+    window.location.href = "/";
   }
 
   render() {

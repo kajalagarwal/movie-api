@@ -69,7 +69,7 @@ export default class Home extends Component {
   renderTable() {
     return (
       <div>
-        <div className='smallHeadline darkCoralText marginBtm20'>Popular Movies</div>
+        <div className='smallHeadline darkCoralText marginBtm20 text-center'>Popular Movies</div>
         <div className='pull-right lightCoralText' id="SearchAll">
           <label className='marginRight20'>SearchAll</label>
           <input

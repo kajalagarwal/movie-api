@@ -5,16 +5,14 @@ import Home from './components/home.js';
 import MovieDetails from './components/movie-details.js';
 import './styles/index.css';
 import './styles/typography.css';
-import { Route, BrowserRouter, hashHistory } from 'react-router-dom';
+import { Route, BrowserRouter, hashHistory, Redirect } from 'react-router-dom';
 
 ReactDOM.render((
 	<BrowserRouter history={hashHistory}>
-		<div>
-			<App>
-		    <Route path="/popular-movies" component={Home} />
-		    <Route path="/movie-details" component={MovieDetails} />
-		  </App>
-	  </div>
+		<App>
+      <Route exact={true} path="/" component={Home} />
+      <Route path="/movie-details" component={MovieDetails} />
+	  </App>
  	</BrowserRouter>
 	),
   document.getElementById('root')
