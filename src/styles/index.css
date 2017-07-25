@@ -1,0 +1,45 @@
+@value colors: './colors.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lightestGray;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  background-color: #f4f4f4;
+}
+
+tr:hover {
+  cursor: pointer
+}
+
+th {
+  background-color: #e68578;
+  color: white;
+}
+
+.reactable-filter-input::-webkit-input-placeholder::before {
+    color:#666;
+    content:"Line 1\A Line 2\A Line 3\A";
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+}
+
+.appHeader {
+  height: auto;
+  padding: 5px;
+  width:100%;
+  background: #cc5242;
+}

@@ -1,0 +1,99 @@
+@value colors: './colors.css';
+
+/* Font families */
+
+.adobeCaslonPro {
+  font-family: 'adobe-caslon-pro';
+}
+
+.museoSans {
+  font-family: 'museo-sans';
+}
+
+/* Properties */
+a {
+  color: #cc5242 !important;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* text-styles */
+
+.darkCoralText {
+  color: #cc5242;
+}
+
+.lightCoralText {
+  color: lightCoral;
+}
+
+.grayText {
+  color: gray;
+}
+
+.whiteText {
+  color: white;
+}
+
+/* Text */
+
+.bolder {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginTop20 {
+  margin-top: 20px;
+}
+
+.marginTop30 {
+  margin-top: 30px;
+}
+
+.marginTop40 {
+  margin-top: 40px;
+}
+
+.marginBtm10 {
+  margin-bottom: 10px;
+}
+
+.marginBtm20 {
+  margin-bottom: 20px;
+}
+
+.marginRight20 {
+  margin-right: 20px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.headline {
+  font-family: 'adobe-caslon-pro';
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1.8px;
+}
+
+.smallHeadline {
+  font-family: 'adobe-caslon-pro';
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+
+.btnCoral {
+  color: white;
+  background-color: #e68578;
+}

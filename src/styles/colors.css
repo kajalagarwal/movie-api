@@ -1,0 +1,19 @@
+/* Brand colors */
+/* These values are here for the convenience of *this* file */
+/* Do not import these values from other files! */
+/* You have been warned! */
+
+@value tan: #d3c1ba;
+@value lightBlue: #e3f1f5;
+@value brandBlue: #346992;
+@value darkBlue: #0a3b61;
+@value lighterCoral: #faeae3;
+@value lightCoral: #f5cebf;
+@value brandCoral: #e68578;
+@value darkCoral: #cc5242;
+@value lightestGray: #f8f8f8;
+@value lighterGray: #ededed;
+@value lightGray: #dfdfdf;
+@value normalGray: #c0c0c0;
+@value darkGray: #9a9a9a;
+@value darkerGray: #454545;
